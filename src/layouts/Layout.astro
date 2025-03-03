@@ -1,3 +1,8 @@
+---
+import '../styles/global.css'
+import Navbar2 from '../components/navbar2.astro';
+
+---
 <!doctype html>
 <html lang="en">
 	<head>
@@ -8,15 +13,8 @@
 		<title>Astro Basics</title>
 	</head>
 	<body>
+	<Navbar2/>
 		<slot />
 	</body>
 </html>
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
